@@ -1,0 +1,16 @@
+{
+  "name": "Dev Container Example",
+  "dockerFile": "Dockerfile",
+  "appPort": [3000],
+  "runArgs": ["-u", "node"],
+  "settings": {
+    "workbench.colorTheme": "Night Owl"
+  },
+  "postCreateCommand": "npm install",
+  "extensions": [
+    // "somekittens.hot-dog-stand",
+    "sdras.night-owl",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}
